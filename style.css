@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+body{
+    background-color: aliceblue;
+    margin:0;
+    padding:0;
+    font-family: 'Cabin', sans-serif;
+}
+.heading h3{
+    text-align:center;
+    font-size:25px;
+    margin-bottom:100px;
+}
+.inputarea{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.inputarea input{
+    width:250px;
+    height:35px;
+    outline:none;
+    border:2px solid orchid;
+    font-size:17px;
+}
+.inputarea label{
+  font-size:24px; 
+  color:darkblue;
+  margin:10px;
+}
+.inputarea #checkbtn{
+ margin-top:20px;
+  width:100px;
+  height:35px;
+  border:none;
+  border-radius:8px;
+  background-color:palevioletred;
+  color:#F6F6F6;
+  font-size:17px;
+  font-family: 'Cabin', sans-serif;
+  font-weight:900;
+}
+#result h3{
+    text-align:center;
+    color:rebeccapurple;
+    font-size:22px;
+}
